@@ -31,26 +31,53 @@
                 <!-- Desktop Menu -->
                 <ul class="hidden md:hidden lg:flex space-x-6 font-bold text-[20px]"
                     style="font-family: 'Reem Kufi Fun', 'sans-serif';">
-                    <li><a href="/" class="text-black hover:text-gray-900">HOME</a></li>
                     <li>
-                        <a href="/collections/all" class="text-black hover:text-gray-900">PRODUCTS
-                            <i class="fa-solid fa-angle-down"></i>
+                        <a href=""
+                            class="relative text-black hover:text-gray-900 transition-all duration-300 pb-1 group hover:text-teal-800">HOME
+                            <span
+                                class="absolute left-0 bottom-0 w-0 h-[3px] bg-teal-800 transition-all duration-300 group-hover:w-full"></span>
                         </a>
                     </li>
-                    <li><a href="/collections/best-selling-products" class="text-black hover:text-gray-900">BEST
-                            SELLING</a></li>
-                    <li><a href="/pages/about" class="text-black hover:text-gray-900">ABOUT</a></li>
-                    <li><a href="/pages/contact" class="text-black hover:text-gray-900">CONTACT</a></li>
+                    <li>
+                        <a href=""
+                            class="relative text-black hover:text-gray-900 transition-all duration-300 pb-1 group hover:text-teal-800">PRODUCTS
+                            <i class="fa-solid fa-angle-down"></i>
+                            <span
+                                class="absolute left-0 bottom-0 w-0 h-[3px] bg-teal-800 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""
+                            class="relative text-black hover:text-gray-900 transition-all duration-300 pb-1 group hover:text-teal-800">BEST
+                            SELLING
+                            <span
+                                class="absolute left-0 bottom-0 w-0 h-[3px] bg-teal-800 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""
+                            class="relative text-black hover:text-gray-900 transition-all duration-300 pb-1 group hover:text-teal-800">ABOUT
+                            <span
+                                class="absolute left-0 bottom-0 w-0 h-[3px] bg-teal-800 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href=""
+                            class="relative text-black hover:text-gray-900 transition-all duration-300 pb-1 group hover:text-teal-800">CONTACT
+                            <span
+                                class="absolute left-0 bottom-0 w-0 h-[3px] bg-teal-800 transition-all duration-300 group-hover:w-full"></span>
+                        </a>
+                    </li>
                 </ul>
 
                 <!-- Right: Search & Cart Icons -->
                 <div class="flex items-center space-x-4">
                     <button
-                        class="text-gray-700 border border-gray-400 w-10 h-10 flex items-center justify-center rounded-full transition duration-300 hover:bg-green-500 hover:text-white">
+                        class="text-gray-700 border border-gray-400 w-10 h-10 flex items-center justify-center rounded-full transition duration-300 hover:bg-teal-800 hover:text-white">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                     <a href="/cart"
-                        class="relative text-gray-700 border border-gray-400 w-10 h-10 flex items-center justify-center rounded-full transition duration-300 hover:bg-green-500 hover:text-white">
+                        class="relative text-gray-700 border border-gray-400 w-10 h-10 flex items-center justify-center rounded-full transition duration-300 hover:bg-teal-800 hover:text-white">
                         <i class="fa-solid fa-bag-shopping"></i>
                         <span
                             class="absolute -top-1 -right-2 bg-red-500 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">0</span>
@@ -81,107 +108,115 @@
 
 
 
+
+
+
         <div class="flex flex-wrap container mx-auto justify-between pt-20 pb-20">
             <!-- Column 1 -->
-            <div class="w-full sm:w-1/3 p-4 relative">
-                <img src="https://htbazar.com/cdn/shop/files/C10A19D4-EFBF-4986-81C3-25DA1B852627.jpg?v=1738249284&width=1000"
-                    alt="Product" class="w-full h-80 rounded-lg">
-                <div class="absolute bottom-0 left-0 right-0 text-white text-center py-20 px-6">
-                    <h3 class="text-xl font-semibold">Combo Offer 1</h3>
-                    <p class="text-gray-300 mt-2">Save 20% on your first purchase!</p>
-                    <button class="bg-teal-500 text-white py-3 px-6 mt-4 rounded-lg text-xl font-semibold">Shop
+            <div class="w-full sm:w-1/3 p-4 relative group overflow-hidden">
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://htbazar.com/cdn/shop/files/C10A19D4-EFBF-4986-81C3-25DA1B852627.jpg?v=1738249284&width=1000"
+                        alt="Product"
+                        class="w-full h-80 rounded-lg transition-transform duration-300 group-hover:scale-125">
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 text-white py-20 px-6">
+                    <h3 class="text-2xl text-white font-semibold ml-4 text-left">Combo Offer</h3>
+                    <button
+                        class="uppercase hover:bg-teal-800 hover:text-white bg-white text-black w-[200px] py-3 mt-4 rounded-lg text-xl font-semibold ml-4">Shop
                         Now</button>
                 </div>
             </div>
 
             <!-- Column 2 -->
-            <div class="w-full sm:w-1/3 p-4 relative">
-                <img src="https://htbazar.com/cdn/shop/files/0C0F7145-6485-4896-A9BD-F0B96B6E787C.jpg?v=1738249270&width=1000"
-                    alt="Product" class="w-full h-80 rounded-lg">
-                <div class="absolute bottom-0 left-0 right-0 text-white text-center py-20 px-6">
-                    <h3 class="text-xl font-semibold">Combo Offer 2</h3>
-                    <p class="text-gray-300 mt-2">Get free shipping on orders above $50!</p>
-                    <button class="bg-teal-500 text-white py-3 px-6 mt-4 rounded-lg text-xl font-semibold">Shop
+            <div class="w-full sm:w-1/3 p-4 relative group overflow-hidden">
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://htbazar.com/cdn/shop/files/0C0F7145-6485-4896-A9BD-F0B96B6E787C.jpg?v=1738249270&width=1000"
+                        alt="Product"
+                        class="w-full h-80 rounded-lg transition-transform duration-300 group-hover:scale-125">
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 text-white py-20 px-6">
+                    <h3 class="text-2xl text-white font-semibold ml-4 text-left">50% Off</h3>
+                    <button
+                        class="uppercase bg-white hover:bg-teal-800 hover:text-white text-black w-[200px] py-3 mt-4 rounded-lg text-xl font-semibold ml-4">Shop
                         Now</button>
                 </div>
             </div>
 
             <!-- Column 3 -->
-            <div class="w-full sm:w-1/3 p-4 relative">
-                <img src="https://htbazar.com/cdn/shop/files/CD03244A-0726-4E2F-955A-BC9C07A76288.jpg?v=1738248928&width=1000"
-                    alt="Product" class="w-full h-80 rounded-lg">
-                <div class="absolute bottom-0 left-0 right-0 text-white text-center py-20 px-6">
-                    <h3 class="text-xl font-semibold">Combo Offer 3</h3>
-                    <p class="text-gray-300 mt-2">Buy 1 get 1 free on select items!</p>
-                    <button class="bg-teal-500 text-white py-3 px-6 mt-4 rounded-lg text-xl font-semibold">Shop
-                        Now</button>
+            <div class="w-full sm:w-1/3 p-4 relative group overflow-hidden">
+                <div class="overflow-hidden rounded-lg">
+                    <img src="https://htbazar.com/cdn/shop/files/CD03244A-0726-4E2F-955A-BC9C07A76288.jpg?v=1738248928&width=1000"
+                        alt="Product"
+                        class="w-full h-80 rounded-lg transition-transform duration-300 group-hover:scale-125">
+                </div>
+                <div class="absolute bottom-0 left-0 right-0 text-white py-20 px-6">
+                    <h3 class="text-2xl text-white font-semibold ml-4 text-left">Stock clearance</h3>
+                    <button
+                        class="uppercase bg-white hover:bg-teal-800 hover:text-white text-black w-[200px] py-3 mt-4 rounded-lg text-xl font-semibold ml-4">Show
+                        all</button>
                 </div>
             </div>
         </div>
 
 
- 
 
 
 
 
-        <div class="flex flex-wrap container mx-auto gap-1 sm:gap-6 md:gap-8 lg:gap-10 justify-between mt-8 mb-8 p-4 sm:p-6">
-    
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
 
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
+        <div class="flex flex-wrap container mx-auto gap-1 sm:gap-6 md:gap-8 lg:gap-10 justify-between mb-3 p-4 sm:p-6">
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
 
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-    <div class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 bg-teal-400 hover:text-white hover:bg-teal-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-        <i class="fa-solid fa-cart-plus mb-2"></i>
-        <div>add to cart</div>
-    </div>
-
-</div>
-
-
-
-
+            <div
+                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
+                <i class="fa-solid fa-cart-plus mb-2"></i>
+                <div>add to cart</div>
+            </div>
+        </div>
 
 
 
@@ -190,7 +225,18 @@
 
 
         <div class="container mx-auto p-6">
-            <h1 class="text-3xl font-bold text-gray-800 text-center mb-6">Trending Products</h1>
+            <div class="section-heading-wrapper text-center mb-5">
+                <h2 class="text-6xl font-semibold text-gray-900 animate__animated animate__fadeInUp mx-auto"
+                    style="animation-duration: 1s; animation-delay: 0.1s;">
+                    New <em class="text-teal-500">category</em>
+                </h2>
+                <p class="text-lg text-gray-600 animate__animated animate__fadeInUp mx-auto text-2xl p-4 w-[500px] md:w-[600px] lg:w-[600px]"
+                    style="animation-duration: 1s; animation-delay: 0.3s;">
+                    Discover fresh arrivals in our New Category, featuring top-quality picks and trending essentials.
+                    Shop now for the latest and best!
+                </p>
+            </div>
+
             <div class="grid md:grid-cols-4 gap-6">
 
                 <!-- Product Card 1 -->
