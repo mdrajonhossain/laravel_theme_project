@@ -95,15 +95,24 @@
 
 
         <!-- Jumbotron Content -->
-        <div class="relative w-full h-[600px] bg-gray-100">
+        <div
+            class="relative w-full h-[300px] sm:h-[400px] md:h-[400px] lg:h-[600px] xl:h-[600px] 2xl:h-[600px] bg-gray-100">
             <img src="https://htbazar.com/cdn/shop/files/receiving-shipping-box-on-ipad.jpg?v=1694388726&width=2800"
                 alt="Product" class="w-full h-full object-cover rounded-lg">
-            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white">
-                <h1 class="text-5xl font-bold mb-4">Welcome to Our Shop!</h1>
-                <p class="text-xl mb-6">Explore our amazing products and enjoy great deals!</p>
-                <button class="bg-teal-800 text-white px-6 py-2 rounded-lg text-lg">Shop Now</button>
+            <div
+                class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white px-4">
+                <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4">
+                    Welcome to Our Shop!
+                </h1>
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mb-6">
+                    Explore our amazing products and enjoy great deals!
+                </p>
+                <button class="bg-teal-800 text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg text-sm sm:text-lg">
+                    Shop Now
+                </button>
             </div>
         </div>
+
 
 
 
@@ -164,57 +173,83 @@
 
 
 
-        <div class="flex flex-wrap container mx-auto gap-1 sm:gap-6 md:gap-8 lg:gap-10 justify-between mb-3 p-4 sm:p-6">
+        <div class="container mx-auto p-4 sm:p-6">
             <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
-            </div>
+                class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-6 xl:grid-cols-6 2xl:grid-cols-6 gap-1 sm:gap-6 md:gap-8 lg:gap-10 mb-3">
 
-            <div
-                class="w-full sm:w-1/2 lg:w-1/6 p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md text-[20px] sm:text-[25px] md:text-[25px] text-center flex flex-col items-center justify-center">
-                <i class="fa-solid fa-cart-plus mb-2"></i>
-                <div>add to cart</div>
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Trending</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-headphones text-4xl mb-2"></i>
+                    <div>Gadget</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-book-journal-whills text-4xl mb-2"></i>
+                    <div>Book</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-shirt text-4xl mb-2"></i>
+                    <div>Fashion</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-baby text-4xl mb-2"></i>
+                    <div>Mom & baby</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Home & Kitchen</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Health & beauty</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Organic</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Accessories</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Sunglass</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Bag</div>
+                </div>
+
+                <div class="p-4 h-40 text-black hover:text-white bg-emerald-100 hover:bg-emerald-800 cursor-pointer rounded-md 
+            text-xl sm:text-2xl md:text-3xl text-center flex flex-col items-center justify-center">
+                    <i class="fa-solid fa-person-breastfeeding text-4xl mb-2"></i>
+                    <div>Home & lifestyle</div>
+                </div>
+
+
             </div>
         </div>
 
@@ -224,18 +259,26 @@
 
 
 
+
         <div class="container mx-auto p-6">
-            <div class="section-heading-wrapper text-center mb-5">
-                <h2 class="text-6xl font-semibold text-gray-900 animate__animated animate__fadeInUp mx-auto"
+
+
+            <div class="section-heading-wrapper text-center mb-5 px-4">
+                <h2 class="text-4xl sm:text-5xl md:text-6xl font-semibold text-gray-900 animate__animated animate__fadeInUp mx-auto"
                     style="animation-duration: 1s; animation-delay: 0.1s;">
                     New <em class="text-teal-500">category</em>
                 </h2>
-                <p class="text-lg text-gray-600 animate__animated animate__fadeInUp mx-auto text-2xl p-4 w-[500px] md:w-[600px] lg:w-[600px]"
+                <p class="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-600 animate__animated animate__fadeInUp mx-auto p-4 
+              w-full sm:w-4/5 md:w-3/5 lg:w-1/2 xl:w-1/2 2xl:w-1/2"
                     style="animation-duration: 1s; animation-delay: 0.3s;">
                     Discover fresh arrivals in our New Category, featuring top-quality picks and trending essentials.
                     Shop now for the latest and best!
                 </p>
             </div>
+
+
+
+
 
             <div class="grid md:grid-cols-4 gap-6">
 
