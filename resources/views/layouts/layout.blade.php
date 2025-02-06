@@ -160,14 +160,14 @@
 
 
     <!-- Mobile Footer -->
-    <div class="fixed z-80 bottom-0 left-0 w-full bg-white shadow-md border-t border-gray-300 lg:hidden">
+    <div class="fixed z-80 bottom-0 h-[80px] left-0 w-full bg-white shadow-md border-t border-gray-300 lg:hidden">
         <div class="flex justify-around items-center py-3 text-gray-700">
 
             <!-- Categories -->
-            <a id="toggleBtn" class="flex flex-col items-center">
+            <div id="cataBtn" class="flex flex-col items-center">
                 <i class="fas fa-th text-xl"></i>
                 <span class="text-xs">Categories</span>
-            </a>
+            </div>
 
             <!-- Wholesale -->
             <a href="" class="flex flex-col items-center">
@@ -194,7 +194,7 @@
 
     <!-- mobile site site menu -->
     <div id="sideMenu"
-        class="fixed top-0 left-0 z-50 h-[92vh] w-full max-w-md bg-teal-500 shadow-lg p-6 transform -translate-x-full transition-transform duration-500">
+        class="fixed top-0 left-0 z-50 h-[calc(100vh-80px)] w-full max-w-md bg-green-500 shadow-lg p-6 transform -translate-x-full transition-transform duration-500">
         <div id="closeBtn"
             class="absolute top-2 right-4 w-8 h-8 bg-red-500 text-white flex justify-center items-center rounded-full">
             <i class="fas fa-times"></i> <!-- FontAwesome close icon -->
@@ -203,6 +203,25 @@
             <li><a href="#" class="block p-2 bg-white text-black hover:bg-gray-200 rounded">Menu Item 1</a></li>
             <li><a href="#" class="block p-2 bg-white text-black hover:bg-gray-200 rounded">Menu Item 2</a></li>
             <li><a href="#" class="block p-2 bg-white text-black hover:bg-gray-200 rounded">Menu Item 3</a></li>
+        </ul>
+    </div>
+
+
+
+    <!-- mobile site catagory site menu -->
+    <div id="catagory_site_Menu"
+        class="fixed top-0 left-0 z-50 h-[calc(100vh-80px)] w-full max-w-md bg-teal-500 shadow-lg p-6 transform -translate-x-full transition-transform duration-500">
+        <div id="closecata_Btn"
+            class="absolute top-2 right-4 w-8 h-8 bg-red-500 text-white flex justify-center items-center rounded-full">
+            <i class="fas fa-times"></i> <!-- FontAwesome close icon -->
+        </div>
+        <ul class="space-y-2 mt-10">
+            <li><a href="#" class="block p-2 bg-white text-black hover:bg-gray-200 rounded">catagory Menu Item 1</a>
+            </li>
+            <li><a href="#" class="block p-2 bg-white text-black hover:bg-gray-200 rounded">catagory Menu Item 2</a>
+            </li>
+            <li><a href="#" class="block p-2 bg-white text-black hover:bg-gray-200 rounded">catagory Menu Item 3</a>
+            </li>
         </ul>
     </div>
 
@@ -246,6 +265,25 @@
 
 
     <script>
+    // <!-- mobile site site menu start -->
+    const cataBtns = document.getElementById("cataBtn");
+    const closecata_Btns = document.getElementById("closecata_Btn");
+    const catagorySiteMenu = document.getElementById("catagory_site_Menu");
+
+    cataBtns.addEventListener("click", () => {
+        catagorySiteMenu.classList.remove("-translate-x-full");
+        catagorySiteMenu.classList.add("translate-x-0");
+    });
+
+    closecata_Btns.addEventListener("click", () => {
+        catagorySiteMenu.classList.remove("translate-x-0");
+        catagorySiteMenu.classList.add("-translate-x-full");
+    });
+    // <!-- mobile site site menu end -->
+
+
+
+
     // <!-- mobile site site menu start -->
     const toggleBtn = document.getElementById("toggleBtn");
     const closeBtn = document.getElementById("closeBtn");
