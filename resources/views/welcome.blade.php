@@ -262,7 +262,6 @@
 
         <div class="container mx-auto p-6">
 
-
             <div class="section-heading-wrapper text-center mb-5 px-4">
                 <h2 class="text-4xl sm:text-5xl md:text-6xl font-semibold text-gray-900 animate__animated animate__fadeInUp mx-auto"
                     style="animation-duration: 1s; animation-delay: 0.1s;">
@@ -279,9 +278,7 @@
 
 
 
-
             <div class="grid md:grid-cols-4 gap-6">
-
                 <!-- Product Card 1 -->
                 <div class="bg-white shadow-md rounded-lg p-4 cursor-pointer group relative">
                     <div class="relative">
@@ -298,7 +295,6 @@
                     <h2 class="text-2xl font-semibold mt-4">Nose Cleaner Sniffing Equip... 650.00Tk990.00Tk</h2>
                     <p class="text-gray-600">$29.99</p>
                 </div>
-
 
                 <!-- Product Card 2 -->
                 <div class="bg-white shadow-md rounded-lg p-4 cursor-pointer group relative">
@@ -390,8 +386,6 @@
                     <p class="text-gray-600">$29.99</p>
                 </div>
 
-
-
                 <!-- Product Card 1 -->
                 <div class="bg-white shadow-md rounded-lg p-4 cursor-pointer group relative">
                     <div class="relative">
@@ -408,7 +402,6 @@
                     <h2 class="text-2xl font-semibold mt-4">Nose Cleaner Sniffing Equip... 650.00Tk990.00Tk</h2>
                     <p class="text-gray-600">$29.99</p>
                 </div>
-
 
                 <!-- Product Card 2 -->
                 <div class="bg-white shadow-md rounded-lg p-4 cursor-pointer group relative">
@@ -444,16 +437,10 @@
                     <h2 class="text-2xl font-semibold mt-4">Nose Cleaner Sniffing Equip... 650.00Tk990.00Tk</h2>
                     <p class="text-gray-600">$29.99</p>
                 </div>
-
-
-
 
             </div>
         </div>
     </div>
-
-
-
 
 
 
