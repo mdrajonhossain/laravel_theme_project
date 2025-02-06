@@ -39,7 +39,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="" id="toggleBtn"
+                        <a href="" id="togglemenu"
                             class="relative text-black hover:text-gray-900 transition-all duration-300 pb-1 group hover:text-teal-800">PRODUCTS
                             <i class="fa-solid fa-angle-down"></i>
                             <span
@@ -264,11 +264,11 @@
 
 
     document.addEventListener("DOMContentLoaded", function() {
-        let toggleBtn = document.getElementById("toggleBtn");
+        let togglemenu = document.getElementById("togglemenu");
         let content = document.getElementById("content");
         let hideTimeout;
 
-        toggleBtn.addEventListener("mouseenter", function() {
+        togglemenu.addEventListener("mouseenter", function() {
             clearTimeout(hideTimeout);
             content.classList.remove("opacity-0", "scale-95", "invisible");
             content.classList.add("opacity-100", "scale-100", "visible");
@@ -278,7 +278,7 @@
             clearTimeout(hideTimeout);
         });
 
-        toggleBtn.addEventListener("mouseleave", hideMenu);
+        togglemenu.addEventListener("mouseleave", hideMenu);
         content.addEventListener("mouseleave", hideMenu);
 
         function hideMenu() {
